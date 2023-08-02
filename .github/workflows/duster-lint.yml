@@ -15,3 +15,6 @@ jobs:
         uses: tighten/duster-action@v2
         with:
           args: lint
+      - uses: tighten/duster-action@v2
+        with:
+          args: fix
